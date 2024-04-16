@@ -1,0 +1,61 @@
+.avatars-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.avatar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.mission-statement {
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
+
+
+.avatar:hover {
+    transform: scale(1.25);
+    transition: transform 0.3s ease;
+}
+
+.avatar.Alice {
+    background-image: url('../../Images/Alice.jpeg');
+}
+
+.avatar.Victoire {
+    background-image: url('../../Images/Victoire.jpeg');
+}
+
+.avatar.Jovana {
+    background-image: url('../../Images/Jovana.jpeg');
+}
+
+.avatar.Rishika {
+    background-image: url('../../Images/Rishika.jpeg');
+}
+
+.avatar.Jules {
+    background-image: url('../../Images/Jules.jpeg');
+}
+
+.avatar.Cyrus {
+    background-image: url('../../Images/Cyrus.jpeg');
+}
